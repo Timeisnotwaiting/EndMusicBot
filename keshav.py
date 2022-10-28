@@ -1,4 +1,4 @@
-from pyrogram import Client, idle
+from pyrogram import Client
 from config import *
 from pytgcalls import PyTgCalls
 
@@ -10,6 +10,3 @@ x = PyTgCalls(yashu)
 
 
 
-alpha.start()
-x.start()
-idle()
