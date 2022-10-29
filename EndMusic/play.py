@@ -8,5 +8,5 @@ async def play(_, m):
     try:
         x = download_video(query) if video else download_audio(query)
         await asst.join_group_call(m.chat.id, AudioVideoPiped(x) if video else AudioPiped(x))
-    except:
-        pass
+    except Exception as e:
+        await m.reply(e)
