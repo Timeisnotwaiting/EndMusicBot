@@ -3,4 +3,4 @@ tgcrypto
 motor 
 pymongo[srv]
 pytube
-pytgcalls
+py-tgcalls
